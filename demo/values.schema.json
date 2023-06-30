@@ -40,7 +40,8 @@
     "replicas",
     "image",
     "version",
-    "service"
+    "service",
+    "nestedField",
   ],
   "required": [
     "name",
