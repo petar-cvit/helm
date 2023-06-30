@@ -31,6 +31,20 @@
         "secondInnerField": {
           "type": "string",
           "description": "I am the second inner field"
+        },
+        "nestedField2": {
+          "type": "object",
+          "title": "My nested field",
+          "properties": {
+            "innerField2": {
+              "type": "boolean",
+              "description": "I am the first inner field"
+            },
+            "secondInnerField2": {
+              "type": "string",
+              "description": "I am the second inner field"
+            }
+          }
         }
       }
     }
