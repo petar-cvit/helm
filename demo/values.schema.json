@@ -41,7 +41,7 @@
     "image",
     "version",
     "service",
-    "nestedField",
+    "nestedField"
   ],
   "required": [
     "name",
