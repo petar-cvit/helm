@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: {{ .Values.name }}
+    test: {{ .Values.nestedField.nestedField2.secondInnerField2 }}
   name: {{ .Values.name }}
 spec:
   replicas: {{ .Values.replicas }}
