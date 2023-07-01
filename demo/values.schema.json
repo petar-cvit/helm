@@ -44,9 +44,18 @@
               "type": "string",
               "description": "I am the second inner field"
             }
-          }
+          },
+          "order": [
+            "innerField2",
+            "secondInnerField2"
+          ]
         }
-      }
+      },
+      "order": [
+        "innerField",
+        "secondInnerField",
+        "nestedField2"
+      ]
     }
   },
   "order": [
