@@ -56,6 +56,10 @@
         "secondInnerField",
         "nestedField2"
       ]
+    },
+    "environment": {
+      "description": "Does your application require a service",
+      "type": "object"
     }
   },
   "order": [
