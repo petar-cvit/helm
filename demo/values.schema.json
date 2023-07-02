@@ -33,6 +33,7 @@
           "description": "I am the second inner field"
         },
         "nestedField2": {
+          "description": "Nersted field desc",
           "type": "object",
           "title": "My nested field",
           "properties": {
