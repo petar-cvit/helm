@@ -18,6 +18,11 @@ spec:
       containers:
       - image: {{ .Values.image -}}:{{ .Values.version }}
         name: {{ .Values.name }}
+        env:
+        {{- range $key, $value := .Values.environment }}
+          - name: {{ $key }}
+            value: {{ $value }}
+        {{- end }}
         ports:
         - containerPort: 8080
           name: http
