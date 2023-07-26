@@ -2,7 +2,7 @@ app: helm
 env: petar
 namespace: default
 chart:
-  repository: https://chart.onechart.dev
+  repository: oci://registry-1.docker.io/bitnamicharts/postgresql
   name: onechart
   version: 0.38.0
 values:
