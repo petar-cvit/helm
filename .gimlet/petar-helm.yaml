@@ -2,9 +2,7 @@ app: helm
 env: petar
 namespace: default
 chart:
-  repository: https://chart.onechart.dev
-  name: onechart
-  version: 0.47.0
+  name: https://github.com/petar-cvit/helm/tree/main/demo
 values:
   gitRepository: petar-cvit/helm
   gitSha: '{{ .SHA }}'
